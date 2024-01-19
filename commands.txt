@@ -1,0 +1,9 @@
+python -m venv venv
+venv\scripts\activate
+pip install -r requirements.txt
+python manage.py tailwind install
+python manage.py tailwind start
+
+In a new terminal:
+venv\scripts\activate
+python manage.py runserver
