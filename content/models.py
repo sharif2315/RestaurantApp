@@ -9,3 +9,10 @@ class ContactSubmission(models.Model):
 
     def __str__(self):
         return f"Message from {self.name}"
+
+"""
+ Add Models for: 
+ Menu Items
+ Menu Categories 
+ Gallery Images 
+"""
