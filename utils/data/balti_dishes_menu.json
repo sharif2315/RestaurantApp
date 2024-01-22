@@ -1,0 +1,49 @@
+{
+    "Balti Dishes": [
+        {
+            "name": "Balti Chicken / Lamb Tikka Massala",
+            "price": 11.9,
+            "description": "Balti dish with chicken or lamb tikka in massala sauce"
+        },
+        {
+            "name": "Balti Chicken Tikka Jalfrezi",
+            "price": 11.9,
+            "description": "Spicy balti dish with chicken tikka jalfrezi"
+        },
+        {
+            "name": "Balti King Prawn Massala",
+            "price": 14.9,
+            "description": "Balti dish with king prawns in massala sauce"
+        },
+        {
+            "name": "Balti King Prawn Sag",
+            "price": 14.9,
+            "description": "King prawns cooked with spinach in balti style"
+        },
+        {
+            "name": "Balti Mixed Vegetable",
+            "price": 10.9,
+            "description": "Assorted vegetables cooked in balti style"
+        },
+        {
+            "name": "Balti Chicken / Lamb",
+            "price": 10.9,
+            "description": "Traditional balti dish with chicken or lamb"
+        },
+        {
+            "name": "Balti Chicken / Lamb Tikka",
+            "price": 11.9,
+            "description": "Balti dish with chicken or lamb tikka"
+        },
+        {
+            "name": "Balti Prawn",
+            "price": 12.9,
+            "description": "Balti dish with prawns"
+        },
+        {
+            "name": "Balti King Prawn",
+            "price": 14.9,
+            "description": "Rich and flavorful balti dish with king prawns"
+        }
+    ]
+}

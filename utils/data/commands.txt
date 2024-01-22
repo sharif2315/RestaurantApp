@@ -1,0 +1,19 @@
+python manage.py shell
+
+import json
+from content.models import MenuCategory, MenuItem
+
+# Load the JSON file
+menu_data = json.load(open('D:/Documents/Sharif/webdev/django/RestaurantApp/utils/data/english_dishes_menu.json'))
+
+# Create the category
+english_dishes_category, created = MenuCategory.objects.get_or_create(name="English Dishes")
+
+# Iterate over items and create menu items
+for item in menu_data["English Dishes"]:
+    MenuItem.objects.create(
+        name=item["name"],
+        description=item["description"],
+        price=item["price"],
+        category=english_dishes_category
+    )

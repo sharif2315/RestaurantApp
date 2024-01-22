@@ -1,0 +1,34 @@
+{
+    "House Special Dishes": [
+        {
+            "name": "Chicken Tikka Massala",
+            "price": 10.9,
+            "description": "Grilled chicken tikka in a creamy tomato sauce"
+        },
+        {
+            "name": "Lamb Tikka Massala",
+            "price": 10.9,
+            "description": "Grilled lamb tikka in a creamy tomato sauce"
+        },
+        {
+            "name": "Chicken Passanda",
+            "price": 10.9,
+            "description": "Chicken cooked in a mild almond sauce"
+        },
+        {
+            "name": "Lamb Passanda",
+            "price": 10.9,
+            "description": "Lamb cooked in a mild almond sauce"
+        },
+        {
+            "name": "Butter Chicken",
+            "price": 10.9,
+            "description": "Tender chicken in a buttery tomato sauce"
+        },
+        {
+            "name": "Tandoori King Prawn Massala",
+            "price": 14.9,
+            "description": "Tandoori king prawns in a creamy tomato sauce"
+        }
+    ]
+}

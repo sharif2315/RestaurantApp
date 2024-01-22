@@ -1,0 +1,99 @@
+{
+    "Starters": [
+        {
+            "name": "Spicy Papadoms",
+            "price": 0.8,
+            "description": "Crispy and spicy Indian crackers"
+        },
+        {
+            "name": "Papadoms",
+            "price": 0.8,
+            "description": "Classic crispy Indian crackers"
+        },
+        {
+            "name": "Onion Bhaji",
+            "price": 3.9,
+            "description": "Deep-fried onion fritters"
+        },
+        {
+            "name": "Meat Samosa",
+            "price": 3.9,
+            "description": "Savory pastry filled with spiced meat"
+        },
+        {
+            "name": "Vegetable Samosa",
+            "price": 3.9,
+            "description": "Savory pastry filled with spiced vegetables"
+        },
+        {
+            "name": "Chicken Tikka",
+            "price": 5.2,
+            "description": "Boneless chicken pieces marinated and grilled"
+        },
+        {
+            "name": "Lamb Tikka",
+            "price": 5.2,
+            "description": "Juicy grilled lamb pieces"
+        },
+        {
+            "name": "Paneer Tikka",
+            "price": 3.9,
+            "description": "Grilled Indian cottage cheese cubes"
+        },
+        {
+            "name": "Salmon Tikka",
+            "price": 7.2,
+            "description": "Marinated and grilled salmon pieces"
+        },
+        {
+            "name": "Tandoori Chicken",
+            "price": 5.2,
+            "description": "Chicken marinated in yogurt and spices, cooked in a tandoor"
+        },
+        {
+            "name": "Sheek Kebab",
+            "price": 5.2,
+            "description": "Skewered and grilled spiced ground meat"
+        },
+        {
+            "name": "Shami Kebab",
+            "price": 5.2,
+            "description": "Patties of ground meat and lentils"
+        },
+        {
+            "name": "Reshmi Kebab",
+            "price": 5.5,
+            "description": "Silky smooth chicken kebabs"
+        },
+        {
+            "name": "Prawn Puree",
+            "price": 5.2,
+            "description": "Spiced prawns served with a thin bread"
+        },
+        {
+            "name": "King Prawn Puree",
+            "price": 6.2,
+            "description": "King-sized spiced prawns with puree"
+        },
+        {
+            "name": "King Prawn Butterfly",
+            "price": 6.2,
+            "description": "Butterflied and fried king prawn"
+        },
+        {
+            "name": "Mixed Kebab",
+            "price": 5.9,
+            "description": "Assortment of various kebabs"
+        },
+        {
+            "name": "Chicken Chat Puree",
+            "price": 4.9,
+            "description": "Spiced chicken served with puree"
+        },
+        {
+            "name": "Prawn Cocktail",
+            "price": 4.5,
+            "description": "Classic prawn cocktail"
+        }
+    ]
+}

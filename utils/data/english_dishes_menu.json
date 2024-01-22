@@ -1,0 +1,39 @@
+{
+    "English Dishes": [
+        {
+            "name": "Chicken Nuggets & Chips",
+            "price": 8.5,
+            "description": "Crispy chicken nuggets served with chips"
+        },
+        {
+            "name": "Fish Fingers & Chips",
+            "price": 8.5,
+            "description": "Golden fish fingers served with chips"
+        },
+        {
+            "name": "Chicken Omelette & Chips",
+            "price": 8.5,
+            "description": "Chicken omelette served with chips"
+        },
+        {
+            "name": "Mushroom Omelette & Chips",
+            "price": 8.5,
+            "description": "Mushroom omelette served with chips"
+        },
+        {
+            "name": "Plain Omelette & Chips",
+            "price": 7.5,
+            "description": "Plain omelette served with chips"
+        },
+        {
+            "name": "Cheesy Chips",
+            "price": 4.2,
+            "description": "Chips topped with melted cheese"
+        },
+        {
+            "name": "Chips",
+            "price": 3.2,
+            "description": "Classic fried chips"
+        }
+    ]
+}

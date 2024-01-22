@@ -1,0 +1,69 @@
+{
+    "Indian Breads": [
+        {
+            "name": "Nan",
+            "price": 2.9,
+            "description": "Traditional Indian bread"
+        },
+        {
+            "name": "Keema Nan",
+            "price": 3.3,
+            "description": "Nan stuffed with minced meat"
+        },
+        {
+            "name": "Peshwari Nan",
+            "price": 3.3,
+            "description": "Nan filled with a sweet nut mixture"
+        },
+        {
+            "name": "Vegetable Nan",
+            "price": 3.3,
+            "description": "Nan stuffed with mixed vegetables"
+        },
+        {
+            "name": "Garlic Nan",
+            "price": 3.3,
+            "description": "Nan flavored with garlic"
+        },
+        {
+            "name": "Onion Nan",
+            "price": 3.3,
+            "description": "Nan with onion filling"
+        },
+        {
+            "name": "Cheese Nan",
+            "price": 3.9,
+            "description": "Nan stuffed with cheese"
+        },
+        {
+            "name": "Paratha",
+            "price": 3.2,
+            "description": "Flaky, layered flatbread"
+        },
+        {
+            "name": "Stuffed Paratha",
+            "price": 4.2,
+            "description": "Paratha stuffed with fillings"
+        },
+        {
+            "name": "Chapathi",
+            "price": 1.9,
+            "description": "Thin, unleavened flatbread"
+        },
+        {
+            "name": "Puree",
+            "price": 1.9,
+            "description": "Deep-fried, puffed bread"
+        },
+        {
+            "name": "Raitha",
+            "price": 3.2,
+            "description": "Yogurt mixed with onion, cucumber, or other vegetables"
+        },
+        {
+            "name": "Chutney (each)",
+            "price": 0.8,
+            "description": "Variety of flavorful chutneys"
+        }
+    ]
+}

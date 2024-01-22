@@ -1,0 +1,49 @@
+{
+    "Biriyani Dishes": [
+        {
+            "name": "Chicken / Lamb Biryani",
+            "price": 10.9,
+            "description": "Flavorful biryani with chicken or lamb"
+        },
+        {
+            "name": "Chicken / Lamb Tikka Biryani",
+            "price": 11.9,
+            "description": "Biryani with spiced chicken or lamb tikka"
+        },
+        {
+            "name": "Tandoori Chicken Biryani",
+            "price": 11.9,
+            "description": "Biryani with tandoori chicken pieces"
+        },
+        {
+            "name": "Prawn Biryani",
+            "price": 12.9,
+            "description": "Delicious biryani with prawns"
+        },
+        {
+            "name": "King Prawn Biryani",
+            "price": 13.9,
+            "description": "Biryani made with king prawns"
+        },
+        {
+            "name": "Vegetable Biryani",
+            "price": 9.9,
+            "description": "Vegetarian biryani with mixed vegetables"
+        },
+        {
+            "name": "Mushroom Biryani",
+            "price": 9.9,
+            "description": "Biryani with fresh mushrooms"
+        },
+        {
+            "name": "Tandoori King Prawn Biryani",
+            "price": 14.9,
+            "description": "Biryani with tandoori king prawns"
+        },
+        {
+            "name": "Mixed Biryani",
+            "price": 14.9,
+            "description": "A mix of various meats and vegetables in biryani"
+        }
+    ]
+}

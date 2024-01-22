@@ -1,0 +1,54 @@
+{
+    "Rice Dishes": [
+        {
+            "name": "Plain Rice",
+            "price": 2.9,
+            "description": "Simple steamed rice"
+        },
+        {
+            "name": "Pilau Rice",
+            "price": 3.3,
+            "description": "Flavored basmati rice"
+        },
+        {
+            "name": "Special Rice",
+            "price": 3.9,
+            "description": "Rice mixed with assorted ingredients"
+        },
+        {
+            "name": "Mushroom Rice",
+            "price": 3.9,
+            "description": "Rice cooked with mushrooms"
+        },
+        {
+            "name": "Coconut Rice",
+            "price": 3.9,
+            "description": "Rice flavored with coconut"
+        },
+        {
+            "name": "Lemon Rice",
+            "price": 3.9,
+            "description": "Rice with a tangy lemon flavor"
+        },
+        {
+            "name": "Vegetable Rice",
+            "price": 3.9,
+            "description": "Rice cooked with mixed vegetables"
+        },
+        {
+            "name": "Egg Rice",
+            "price": 3.9,
+            "description": "Rice cooked with eggs"
+        },
+        {
+            "name": "Keema Rice",
+            "price": 3.9,
+            "description": "Rice cooked with minced meat"
+        },
+        {
+            "name": "Mint Rice",
+            "price": 3.9,
+            "description": "Rice flavored with mint"
+        }
+    ]
+}

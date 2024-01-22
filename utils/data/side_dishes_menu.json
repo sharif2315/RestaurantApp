@@ -1,0 +1,79 @@
+{
+    "Side Dishes": [
+        {
+            "name": "Mix Vegetable Curry",
+            "price": 3.9,
+            "description": "Mixed vegetables cooked in a curry sauce"
+        },
+        {
+            "name": "Mix Dry Vegetables",
+            "price": 3.9,
+            "description": "Assorted dry-cooked vegetables"
+        },
+        {
+            "name": "Mushroom Bhaji",
+            "price": 3.9,
+            "description": "Saut\u00e9ed mushrooms with spices"
+        },
+        {
+            "name": "Cauliflower Bhaji",
+            "price": 3.9,
+            "description": "Spiced cauliflower dish"
+        },
+        {
+            "name": "Bindi Bhaji",
+            "price": 3.9,
+            "description": "Okra cooked with a blend of spices"
+        },
+        {
+            "name": "Brinjal Bhaji",
+            "price": 3.9,
+            "description": "Spiced eggplant dish"
+        },
+        {
+            "name": "Aloo Gobi",
+            "price": 3.9,
+            "description": "Cauliflower and potatoes cooked with spices"
+        },
+        {
+            "name": "Sag Bhaji",
+            "price": 3.9,
+            "description": "Spinach cooked with spices"
+        },
+        {
+            "name": "Sag Aloo",
+            "price": 3.9,
+            "description": "Spinach and potatoes cooked together"
+        },
+        {
+            "name": "Bombay Aloo",
+            "price": 3.9,
+            "description": "Potatoes cooked in a spicy sauce"
+        },
+        {
+            "name": "Tarka Dall",
+            "price": 3.9,
+            "description": "Lentils cooked with spices and a tadka of onion and garlic"
+        },
+        {
+            "name": "Dall Massala",
+            "price": 3.9,
+            "description": "Lentils cooked in a massala sauce"
+        },
+        {
+            "name": "Chana Massala",
+            "price": 3.9,
+            "description": "Chickpeas cooked in a massala sauce"
+        },
+        {
+            "name": "Motor Paneer",
+            "price": 4.2,
+            "description": "Peas with Indian cheese/mild cheddar"
+        },
+        {
+            "name": "Sag Paneer",
+            "price": 4.2,
+            "description": "Spinach with Indian cheese/mild cheddar"
+        }
+    ]
+}

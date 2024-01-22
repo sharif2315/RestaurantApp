@@ -1,0 +1,54 @@
+{
+    "Naz Specials": [
+        {
+            "name": "Tandoori Mix Korahi (New)",
+            "price": 12.9,
+            "description": "A new mix of tandoori items cooked in a korahi style"
+        },
+        {
+            "name": "Garlic Chengri (New)",
+            "price": 14.9,
+            "description": "Cooked with king prawn & prawn madras hot with green chilli & garlic"
+        },
+        {
+            "name": "Murgh Massala (New)",
+            "price": 11.9,
+            "description": "Pieces of tandoori chicken & minced lamb cooked in a masala sauce. Medium strength"
+        },
+        {
+            "name": "Sobzi Mix (New)",
+            "price": 10.9,
+            "description": "Vegetarian dish served with all kinds of vegetables, medium spiced. Served on a karahi"
+        },
+        {
+            "name": "Tandoori Mix Massala",
+            "price": 12.9,
+            "description": "A delicious mix of tandoori items in a massala sauce"
+        },
+        {
+            "name": "Zinga Balti",
+            "price": 14.9,
+            "description": "Seafood mix medium spice with fresh herbs & lemon"
+        },
+        {
+            "name": "Sweet & Sour Chicken Tikka",
+            "price": 11.9,
+            "description": "A unique sweet and sour twist to the classic chicken tikka"
+        },
+        {
+            "name": "Salmon Jalfrezi",
+            "price": 14.9,
+            "description": "Spicy and flavorful salmon jalfrezi"
+        },
+        {
+            "name": "Salmon Korahi",
+            "price": 14.9,
+            "description": "Salmon cooked in a traditional korahi style"
+        },
+        {
+            "name": "Tandoori King Prawn Korahi",
+            "price": 14.9,
+            "description": "King prawns cooked in a flavorful korahi method"
+        }
+    ]
+}

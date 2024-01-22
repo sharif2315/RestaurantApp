@@ -1,0 +1,64 @@
+{
+    "Clay Oven Dishes": [
+        {
+            "name": "Chicken Tikka",
+            "price": 9.9,
+            "description": "Marinated chicken pieces grilled in a clay oven"
+        },
+        {
+            "name": "Lamb Tikka",
+            "price": 9.9,
+            "description": "Marinated lamb pieces grilled in a clay oven"
+        },
+        {
+            "name": "Paneer Tikka",
+            "price": 7.5,
+            "description": "Marinated Indian cottage cheese grilled in a clay oven"
+        },
+        {
+            "name": "Salmon Tikka",
+            "price": 13.9,
+            "description": "Marinated salmon fillets grilled in a clay oven"
+        },
+        {
+            "name": "Tandoori Chicken (half)",
+            "price": 9.9,
+            "description": "Half chicken marinated and cooked in a tandoori style"
+        },
+        {
+            "name": "Tandoori Chicken (full)",
+            "price": 14.9,
+            "description": "Full chicken marinated and cooked in a tandoori style"
+        },
+        {
+            "name": "Tandoori Mixed Grill",
+            "price": 13.9,
+            "description": "A mix of tandoori specialities"
+        },
+        {
+            "name": "Chicken or Lamb Shashlik",
+            "price": 10.9,
+            "description": "Grilled chicken or lamb with vegetables"
+        },
+        {
+            "name": "Salmon Shashlik",
+            "price": 14.9,
+            "description": "Grilled salmon with vegetables"
+        },
+        {
+            "name": "Paneer Shashlik",
+            "price": 8.5,
+            "description": "Grilled paneer with vegetables"
+        },
+        {
+            "name": "Tandoori King Prawn",
+            "price": 13.9,
+            "description": "King prawns cooked in a tandoori style"
+        },
+        {
+            "name": "Tandoori King Prawn Shashlik",
+            "price": 14.9,
+            "description": "King prawns grilled with vegetables"
+        }
+    ]
+}

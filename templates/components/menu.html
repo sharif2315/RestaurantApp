@@ -3,357 +3,39 @@
     <h1 class="text-6xl">Menu</h1>
 
     <!-- TODO: Use Accordion on Menu Sections only for small screen -->
-    <!-- Menu Sections to have optional descriptions such as Clay Oven Dishes section -->
+    <!-- Removed items-center -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center">
 
-    <!-- Starters -->
-    <div class="flex flex-col p-10">
-        <h2 class="text-4xl">Starters</h2>
+        {% for category in menu_categories %}
+        <div class="flex flex-col p-10 w-full max-w-xl">
+            <!-- bg-green-200 sm:bg-yellow-200 md:bg-blue-200 lg:bg-purple-200 xl:bg-pink-200 -->
 
-        <!-- Starters Menu Items -->
-        <div class="flex flex-col gap-4 mt-4">
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Spicy Papadoms</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
+            <h2 class="text-4xl">{{ category.name }}</h2>
 
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Papadoms</h3>
-                    <p class="text-sm">Lamb marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£4.95</p>
-            </div>
+            {% if category.description %}
+            <p class="italic">{{ category.description }}</p>
+            {% endif %}
 
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Onion Bhaji</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
+            <!-- Menu Items Container -->
+            <div class="flex flex-col gap-4 mt-4">
 
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Meat Samosa</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
+                <!-- Menu Item -->
+                {% for item in category.menu_items %}
+                <div class="flex gap-4 items-center justify-between">
+                    <div>
+                        <h3 class="font-semibold">{{ item.name }}</h3>
+                        <p class="text-sm">{{ item.description }}</p>
+                    </div>
+                    <p>{{ item.price }}</p>
                 </div>
-                <p>£3.95</p>
-            </div>
+                {% endfor %}
 
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Vegetable Samosa</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Chicken Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Lamb Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Paneer Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Salmon Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori Chicken</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Sheek Kebab</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Shami Kebab</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Reshmi Kebab</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Prawn Puree</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">King Prawn Puree</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">King Prawn Butterfly</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Mixed Kebab</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Chicken Chat Puree</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Prawn Cocktail</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Clay Oven Dishes -->
-    <div class="flex flex-col p-10">
-        <h2 class="text-4xl">Clay Oven Dishes</h2>
-        <p class="italic">Served with green salad & mint sauce</p>
-
-        <!-- Clay Oven Dishes Menu Items -->
-        <div class="flex flex-col gap-4 mt-4">
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Chicken Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Lamb Tikka</h3>
-                    <p class="text-sm">Lamb marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£4.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Paneer Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Salmon Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori Chicken (half)</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori Chicken (full)</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori Mixed Grill</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Chicken or Lamb Shashlik</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Salmon Shashlik</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Paneer Shashlik</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori King Prawn</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori King Prawn Shashlik</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
             </div>
 
         </div>
+        {% endfor %}
+        
     </div>
 
-    <!-- House Specials -->
-    <div class="flex flex-col p-10">
-        <h2 class="text-4xl">House Specials</h2>
-
-        <!-- House Specials Menu Items -->
-        <div class="flex flex-col gap-4 mt-4">
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori Mix Korahi</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Garlic Chengri</h3>
-                    <p class="text-sm">Lamb marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£4.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Murgh Massala</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Sobzi Mix</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Tandoori Mix Massala</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Zinga Balti</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Korahi Chicken Dansak</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Lamb Xacuti</h3>
-                    <p class="text-sm">Lamb marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£4.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Badami Chicken Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Kanakati Chicken Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Naga Chicken Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-            <div class="flex gap-4 items-center justify-between">
-                <div>
-                    <h3 class="font-semibold">Rezala Chicken/ Lamb Tikka</h3>
-                    <p class="text-sm">Chicken marinated in yoghurt, herbs and spices, cooked in the tandoor</p>
-                </div>
-                <p>£3.95</p>
-            </div>
-
-        </div>
-    </div>
 
 </div>
