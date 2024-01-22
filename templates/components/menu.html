@@ -4,7 +4,7 @@
 
     <!-- TODO: Use Accordion on Menu Sections only for small screen -->
     <!-- Removed items-center -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 justify-center">
 
         {% for category in menu_categories %}
         <div class="flex flex-col p-10 w-full max-w-xl">
@@ -17,12 +17,12 @@
             {% endif %}
 
             <!-- Menu Items Container -->
-            <div class="flex flex-col gap-4 mt-4">
+            <div class="flex flex-col gap-4 mt-4 lg:overflow-y-auto lg:max-h-[50rem] lg:pr-4">
 
                 <!-- Menu Item -->
                 {% for item in category.menu_items %}
                 <div class="flex gap-4 items-center justify-between">
-                    <div>
+                    <div class="w-3/4">
                         <h3 class="font-semibold">{{ item.name }}</h3>
                         <p class="text-sm">{{ item.description }}</p>
                     </div>
