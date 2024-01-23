@@ -1,35 +1,49 @@
+<header x-data="{ mobilenavOpen: false }" class="md:flex items-center justify-between [&>*]:px-8 _bg-transparent bg-[#fafaed] h-20 sticky top-0 z-50 border border-b border-b-slate-300">
 
-<header x-data="{ mobilenavOpen: false }" class="md:flex items-center justify-between [&>*]:px-8 h-20 top-0 z-50">
-    <div class="flex items-center justify-between h-20 text-slate-800">
+    <div class="flex items-center justify-between h-20">
 
         <logo>
             <a class="flex items-center gap-1" href="">
-                <span class="text-lg font-bold">Naz Soham</span>
+                <span class="text-xl font-semibold">Naz Soham</span>
             </a>
         </logo>
 
+
         <mobileicon class="md:hidden">
-            <a @click="mobilenavOpen = !mobilenavOpen" class="h-12 w-12 flex items-center justify-center cursor-pointer bg-gray-700 rounded-lg">
-                <img x-show="!mobilenavOpen" class="w-6 h-6 select-none" src="https://img.icons8.com/small/64/ffffff/menu.png"/> 
-                <img x-show="mobilenavOpen" x-cloak class="w-6 h-6 select-none" src="https://img.icons8.com/small/64/ffffff/delete-sign.png"/>
+            <a @click="mobilenavOpen = !mobilenavOpen"
+                class="h-12 w-12 flex items-center justify-center hover:cursor-pointer rounded-lg">
+                
+                <!-- hamburger icon -->
+                <svg x-show="!mobilenavOpen" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+                <!-- Delete Icon -->
+                <svg x-show="mobilenavOpen" x-cloak xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+
             </a>
         </mobileicon>
 
     </div>
 
-    <nav 
-        x-show="mobilenavOpen" 
-        x-cloak 
-        class="md:!block h-screen w-screen md:h-auto md:w-auto -mt-20 md:mt-0 absolute md:relative z-[-1]"
-        x-transition:enter="duration-300 ease-out"
-        x-transition:enter-start="opacity-0 -translate-y-96"
-        x-transition:enter-end="opacity-100 translate-y-0"
-    >
-        <ul class="flex items-center navitems flex-col md:flex-row gap-8 md:gap-0 justify-center h-full -translate-y-10 md:translate-y-0">
-            <li><a href="" class="flex items-center gap-2 h-12 px-4 rounded-lg">Menu</a></li>
-            <li><a href="" class="flex items-center gap-2 h-12 px-4 rounded-lg">About</a></li>
-            <li><a href="" class="flex items-center gap-2 h-12 px-4 rounded-lg">Contact</a></li>
+    <nav x-show="mobilenavOpen" x-cloak
+        class="md:!block bg-[#fafaed] h-screen w-screen md:h-auto md:w-auto -mt-20 md:mt-0 absolute md:relative z-[-1]"
+        x-transition:enter="duration-300 ease-in-out" x-transition:enter-start="opacity-0 -translate-y-96"
+        x-transition:enter-end="opacity-100 translate-y-0">
+
+        <ul class="text-slate-600 uppercase semibold tracking-widest text-3xl md:text-sm flex items-center navitems flex-col md:flex-row gap-8 justify-center h-full -translate-y-10 md:translate-y-0">
+
+            <li><a class="hover:underline hover:text-slate-900" href="">About</a></li>
+            <li><a class="hover:underline hover:text-slate-900" href="">Menu</a></li>
+            <li><a class="hover:underline hover:text-slate-900" href="">Contact</a></li>
+
         </ul>
     </nav>
+
 
 </header>
