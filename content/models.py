@@ -23,7 +23,8 @@ class MenuCategory(models.Model):
     order = models.IntegerField(default=0)
 
     def __str__(self):
-        return f'{self.name} ({self.order})'
+        # return f'{self.name} ({self.order})'
+        return self.name
 
     class Meta:
         verbose_name = "Menu Category"
@@ -38,8 +39,8 @@ class MenuItem(models.Model):
     category = models.ForeignKey(MenuCategory, on_delete=models.CASCADE)
 
     def __str__(self):
-        # return self.name
-        return f'{self.category} - {self.name}'
+        return self.name
+        # return f'{self.category} - {self.name}'
 
 
     class Meta:
