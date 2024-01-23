@@ -20,13 +20,15 @@ from django.db import models
 class MenuCategory(models.Model):
     name = models.CharField(max_length=100)
     description = models.CharField(max_length=200, null=True, blank=True)
+    order = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.name
+        return f'{self.name} ({self.order})'
 
     class Meta:
         verbose_name = "Menu Category"
         verbose_name_plural = "Menu Categories"
+        ordering = ['order'] 
 
 
 class MenuItem(models.Model):
