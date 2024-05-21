@@ -43,8 +43,8 @@ INSTALLED_APPS = [
     'content',
 
     # Third party apps
-    'tailwind',
-    'theme',
+    # 'tailwind',
+    # 'theme',
     'django_browser_reload',
     'fontawesomefree',
 ]
@@ -55,7 +55,7 @@ INTERNAL_IPS = [
     "127.0.0.1",
     "localhost",
 ]
-
+# May not need npm path, was used for tailwind theme config
 NPM_BIN_PATH = "D:/Program Files/nodejs/npm.cmd"
 
 MIDDLEWARE = [
